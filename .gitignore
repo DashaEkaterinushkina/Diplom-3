@@ -1,0 +1,6 @@
+target/
+*.iws
+*.iml
+.build
+.idea
+.allure
