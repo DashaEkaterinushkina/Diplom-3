@@ -17,9 +17,9 @@ public class Transition {
     private final By bunLocation = By.xpath(".//span[text()='Булки']");
     private final By sauceLocation = By.xpath(".//span[text()='Соусы']");
     private final By toppingLocation = By.xpath(".//span[text()='Начинки']");
-    private final By bunCheckLocation = By.xpath(".//div[contains(@class,'tab_tab__1SPyG')]/span[text()='Булки']");
+    private final By bunCheckLocation = By.xpath(".//div[contains(@class,'tab_tab__1SPyG')][1]]");
     private final By sauceCheckLocation = By.xpath(".//div[contains(@class,'current')]");
-    private final By toppingCheckLocation = By.xpath(".//div[contains(@class,' pt-4 pr-10 pb-4 pl-10')]/span[text()='Начинки']");
+    private final By toppingCheckLocation = By.xpath(".//div[contains(@class,' pt-4 pr-10 pb-4 pl-10')][3]]");
 
     public Transition(WebDriver driver) {
         this.driver = driver;
